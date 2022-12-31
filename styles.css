@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+
+* {
+    padding-top: .5rem;
+    margin: 0%;
+
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #CBF1F5;
+    
+}
+
+.main_container {
+    position: relative;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+
+
+
+@media only screen and (min-width: 960px) {
+
+    /* styles for browsers larger than 960px; */
+    html {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    /* styles for browsers larger than 1440px; */
+    html {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+
+    /* for sumo sized (mac) screens */
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    html {
+        font-size: 0.4rem;
+    }
+}
+
+@media only screen and (max-device-width: 398px) {
+
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    html {
+        font-size: 0.3rem;
+    }
+    
+}
+
+@media only screen and (device-width: 768px) {
+
+    /* default iPad screens */
+    html {
+        font-size: 0.5rem;
+    }
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+
+    /* For portrait layouts only */
+    html {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+
+    /* For landscape layouts only */
+    html {
+        font-size: 0.5rem;
+    }
+}
+
+/*navbar part*/
+
+.nav {
+    position: relative;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-list-left {
+    list-style: none;
+
+}
+
+.nav-list-right {
+    list-style: none;
+    display: flex;
+}
+
+.nav-left {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.nav-list-left {
+    padding: 0;
+}
+
+.nav_list {
+    margin: 2rem;
+    margin-right: 0rem;
+
+}
+
+
+
+.nav-list-right :hover {
+    border-bottom: 0.2rem solid rgb(145, 26, 145);
+    margin-bottom: 1.8rem;
+}
+
+/* -----Nav bar End---- */
+
+/* --------Intro--------  */
+
+span{
+    color: #25316D;
+}
+
+.intro {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 30rem;
+    width: 100%;
+    flex-direction: wrap;
+}
+
+.intro-left {
+    margin: 0rem;
+    padding: 0rem;
+    position: absolute;
+    width: 50%;
+    height: 98%;
+
+}
+
+.intro-left-cont {
+    margin: 0rem;
+    padding: 0rem;
+    position: absolute;
+    top: 8rem;
+    font-size: 4.5rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-weight: 500;
+    line-height: 97.2%;
+    /* letter-spacing: -0.03em; */
+
+}
+
+
+.intro-left-sub {
+    margin: 0rem;
+    padding: 0rem;
+    position: absolute;
+    top: 22rem;
+    color: #606060;
+    font-size: 2.0rem;
+    font-weight: 400;
+    line-height: 117%;
+
+
+}
+
+.intro-right {
+
+    position: absolute;
+    width: 48%;
+    height: 96%;
+
+    right: 0rem;
+}
+
+.intro-right-cont {
+    top: 2rem;
+    margin: 0rem;
+    padding: 0rem;
+    position: absolute;
+    right: 0rem;
+}
+
+.intro-right-cont img {
+    border-radius: 50%;
+    max-width: 95%;
+}
+
+/* -----End of Intro----- */
+
+.arrow_1 {
+    position: relative;
+    height: 8rem;
+}
+
+.arrow_1 img {
+    position: absolute;
+    bottom: 0rem;
+    height: 4rem;
+    max-width: 95%;
+}
+
+/* -------Previous Job--------*/
+.Experience{
+    margin-top:4rem;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    box-sizing: border-box;
+}
+
+.Experience h1{
+    position: absolute;
+    font-size: 2.0rem;
+    font-weight: 500;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.Exp {
+    position: absolute;
+    margin-top:1rem;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.Exp ul{
+   list-style: none;
+   font-size: 1.5rem;
+   
+}
+
+.Exp img{
+    max-width: 90%;
+}
+
+#inside-div{
+    
+    box-sizing: border-box;
+}
+
+/*--------End of Previous
+
+/* -------Education Qualification------- */
+
+.Education-head{
+    margin-top: 4rem;
+    position: relative;
+    width: 100%;
+    height: 28rem;
+    box-sizing: border-box;
+}
+
+
+.Education-head h1{
+    position: absolute;
+    font-size: 2.0rem;
+    font-weight: 500;
+    font-weight: 500;
+}
+
+.Education{
+    position: absolute;
+    margin-top:4rem;
+    width: 100%;
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.Education ul{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.Education img{
+    max-width: 95%;
+}
+
+.side-arrow{
+    position: relative;
+    max-width: 95%;
+    width:4rem;
+   
+    box-sizing: border-box;
+}
+
+#inside-div1{
+    box-sizing: border-box;
+}
+
+/* -------End of Education Qualification------- */
+

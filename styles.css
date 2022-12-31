@@ -244,19 +244,22 @@ span{
 
 .Exp {
     position: absolute;
-    margin-top:1rem;
+    margin-top:4rem;
     width: 100%;
-    height: 30rem;
+    height: 22rem;
     display: flex;
     align-items: center;
     justify-content:space-around;
     text-align: center;
+    
 }
 
 .Exp ul{
    list-style: none;
    font-size: 1.5rem;
-   
+   margin: 0;
+   padding: 0;
+   padding-inline-start: 0;
 }
 
 .Exp img{
@@ -268,7 +271,12 @@ span{
     box-sizing: border-box;
 }
 
-/*--------End of Previous
+/* /*--------End of Previous */
+
+.list{
+    margin: 0;
+    padding: 0;
+}
 
 /* -------Education Qualification------- */
 
@@ -302,6 +310,7 @@ span{
 .Education ul{
     list-style: none;
     font-size: 1.5rem;
+    padding: 0;
 }
 
 .Education img{
@@ -313,12 +322,14 @@ span{
     max-width: 95%;
     width:4rem;
    
-    box-sizing: border-box;
 }
 
 #inside-div1{
     box-sizing: border-box;
 }
+
+
+
 
 /* -------End of Education Qualification------- */
 
